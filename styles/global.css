@@ -34,15 +34,13 @@ main {
     display: grid;
     grid-template-columns: 196px 607px 112px;
     padding: 20px;
+    color: #0000ee;
 }
 
 #left {
     background: white;
     width: 196px;
-}
-
-#middle {
-    background: blue;
+    text-align: center;
 }
 
 #right {
