@@ -9,7 +9,7 @@ body {
     font-family: var(--primary-font);
     background: var(--background);
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr, 4fr, 506px;
 }
 
 header {
@@ -31,5 +31,40 @@ header .logo {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 196px 607px 112px;
     padding: 20px;
+    color: #0000ee;
+}
+
+#left {
+    background: white;
+    width: 196px;
+    text-align: center;
+}
+
+#right {
+    background: red;
+}
+
+#main-title {
+    height: 50px;
+    font-size: 80%;
+}
+
+#post {
+    height: 50px;
+}
+
+#account {
+    height: 50px;
+}
+
+#terms {
+    height: 200px;
+    background: white;
+}
+#about {
+    height: 200px;
+    background: blueviolet;
 }
