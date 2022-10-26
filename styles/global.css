@@ -31,21 +31,42 @@ header .logo {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 196px 607px 112px;
     padding: 20px;
 }
 
-#main-header {
-    background: pink;
+#left {
+    background: white;
+    width: 196px;
 }
 
-#middle-section {
+#middle {
     background: blue;
 }
 
-#footer {
+#right {
     background: red;
 }
 
-#left {
-    background: orange;
+#main-title {
+    height: 50px;
+    font-size: 80%;
+}
+
+#post {
+    height: 50px;
+}
+
+#account {
+    height: 50px;
+}
+
+#terms {
+    height: 200px;
+    background: white;
+}
+#about {
+    height: 200px;
+    background: blueviolet;
 }
