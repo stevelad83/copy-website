@@ -9,7 +9,7 @@ body {
     font-family: var(--primary-font);
     background: var(--background);
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr, 4fr, 506px;
 }
 
 header {
@@ -32,4 +32,16 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+#main-header {
+    background: pink;
+}
+
+#middle-section {
+    background: blue;
+}
+
+#footer {
+    background: red;
 }
